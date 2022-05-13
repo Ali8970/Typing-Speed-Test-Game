@@ -1,0 +1,495 @@
+/* button {
+
+    padding: 10px 20px;
+    border: none;
+    margin: 100px auto;
+    font-size: 40px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    
+}
+button:focus {
+    outline: none;
+}
+button.open::before {
+    content: "My Awesome Tooltip";
+    position: absolute;
+    top: -60px;
+    left: -50%;
+    min-width: 250px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+button.open::after {
+    content: "";
+    position: absolute;
+    border-width: 15px;
+    border-color: #333 transparent transparent transparent;
+    border-style: solid;
+    top: -20px;
+    left: 50px;
+} */
+/* 
+button {
+
+    padding: 10px 20px;
+    border: none;
+    margin: 100px auto;
+    font-size: 40px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+button span {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 240px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    padding: 10px 5px;
+    opacity: 0;
+    transition: 0.5s;
+}
+button span::before {
+    content: "";
+    position: absolute;
+    border-width: 10px;
+    border-color: #333 transparent transparent transparent;
+    border-style: solid;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    overflow: visible;
+}
+button:hover span {
+    opacity: 1;
+}
+
+
+[data-position="buttom"] span {
+    top: auto;
+    bottom: -60px;
+}
+[data-position="buttom"] span:before {
+    top: -20px;
+    bottom: auto;
+    border-color: transparent transparent #333 transparent;
+} */
+
+/* .c1{
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    clip-path: polygon(50% 0% , 0% 0% , 100% 0%);
+} */
+
+
+
+/* .parent {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px 5px #eee;
+    transition: .3s;
+    overflow: hidden;
+    /* animation: colorall 0.5s   forwards infinite; */
+
+/* .num {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    transition: .6s;
+    
+} */
+/* @keyframes colorall {
+    0%,
+    20% {
+       
+        background-color: red;
+    }
+    40%,
+    50%,
+    70%,
+    80%,
+    100% {
+        background-color: red;
+    }
+} */
+
+/* .parent:hover .num {
+    box-shadow: 0 0 0 300px #f00;
+    z-index: -1;
+}
+.parent:hover h2 {
+    color: white;
+    z-index: 100;
+}
+.parent:hover p {
+    color: white;
+    z-index: 10;
+}
+
+.num span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+} */
+
+
+
+/* .fill {
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #333;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.fill::before {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-text-fill-color: aqua;
+    transition: 0.5s;
+    width: 0;
+    overflow: hidden;
+}
+.fill:hover::before {
+    width: 100%;
+} */
+
+/* .fill {
+    width: fit-content;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fill:hover {
+    animation: col .5s linear forwards;
+}
+@keyframes col {
+    0%,
+    10%,
+    20% {
+        -webkit-text-fill-color: white;
+    }
+    30%,
+    40%,
+    50%,
+    60%,
+    70%,
+    80%,
+    90%,
+    100% {
+        -webkit-text-fill-color: aqua;
+    }
+    
+} */
+
+
+
+/* div {
+    width: 400px;
+    margin: 20px auto;
+}
+input {
+    border: none;
+    background-color: #eee;
+    border-bottom: 2px solid rgb(168, 163, 163);
+    width: 370px;
+    padding: 15px;
+}
+input:focus {
+    outline: none;
+}
+.count {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.progress {
+    width: 0;
+    height: 2px;
+    position: relative;
+    background-color: aqua;
+    display: block;
+    top: -2px;
+    transition: 0.5s;
+}
+.count {
+    font-size: 20px;
+    font-weight: bold;
+}
+.zero {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+} */
+
+
+
+/* .switcher {
+    background-color: #eee;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 40px;
+}
+.switcher li {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 30px;
+}
+.switcher li:not(:last-child) {
+    margin-right: 15px;
+}
+.switcher li:hover {
+    cursor: pointer;
+}
+.gallary {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-gap: 10px;
+
+}
+
+.switcher li.active {
+    color: white;
+    background-color: red;
+} */
+
+
+/* .tabs {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.tabs li {
+    background-color: rgb(245, 243, 243);
+    margin-right: 2px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tabs li.active {
+    background-color: rgb(211, 208, 208);
+}
+.content {
+    padding-left: 10px;
+}
+.content div{
+    padding: 20px;
+    background-color: rgb(211, 208, 208);
+    margin-bottom: 2px;
+    width: 224px;
+}
+.content div:not(:first-child) {
+    display: none;
+} */
+
+
+
+:root {
+    --main-color:#2196f3;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans" , "sans-serif";
+}
+.game {
+    background-color: #eee;
+    min-height: 100vh;
+}
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+.name {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.message {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 6px;
+    text-align: center;
+}
+.message span {
+    font-weight: bold;
+    color: #009688;
+}
+.message span::before {
+    content: "[";
+}
+.message span::after {
+    content: "]";
+}
+.start {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+.the-word {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: var(--main-color);
+    user-select: none;
+}
+.input {
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border: 3px solid var(--main-color);
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 6px;
+    caret-color: var(--main-color);
+}
+input:focus {
+    outline: none;
+}
+.upcoming-words {
+    background-color: white;
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.upcoming-words div {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.control {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
+.control span {
+    font-weight: bold;
+    color: #009688;
+}
+.finish {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.finish .good {
+    color: var(--main-color);
+}
+
+
+.finish .bad {
+    color: red;
+}
+.reload {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
+
+.choice {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.choice span {
+    background-color: var(--main-color);
+    font-size: 20px;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
